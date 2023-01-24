@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fcc9fb7-f47a-47a3-b068-0a813fcdc872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/RemovePair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rc/tech/NextPermutationOfANumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rc/tech/RemovePair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rc/tech/TrappingRainWater.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
