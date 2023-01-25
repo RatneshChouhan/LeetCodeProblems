@@ -28,6 +28,7 @@ public class RemovePair {
             }
             i++;
         }
+        String str = new String ();
 
         StringBuilder result = new StringBuilder();
 
