@@ -6,7 +6,7 @@ import java.util.Set;
 public class ArrayContainsDuplicate {
 
     public static void main(String[] args) {
-        int [] nums = new int[] {1,2,3,4};//{1,1,1,3,3,4,3,2,4,2};
+        int [] nums = new int[] {1,2,3,1};//{1,1,1,3,3,4,3,2,4,2};
 
         System.out.println("Input Array Contains Duplicate: " + containsDuplicate(nums));
         
