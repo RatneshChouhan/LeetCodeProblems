@@ -1,12 +1,18 @@
 package com.rc.tech;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class ChocolateDistribution {
 
     public static void main(String[] args) {
         int [] nums = new int[] {12, 4, 7, 9, 2, 23, 25, 41, 30,40, 28, 42, 30, 44, 48, 43, 50};
         System.out.println("The Min different is: " + findMinDiff(nums, 7));
+
+        List<Integer> iList = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+        Set<Integer> iset = new HashSet<>(iList);
+
+        iList.addAll(iset);
+        iset.addAll(iList);
     }
 
     public static int findMinDiff(int [] nums, int m) {
