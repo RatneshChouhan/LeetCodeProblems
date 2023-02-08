@@ -1,9 +1,9 @@
 package com.rc.tech;
 /*  Edge Cases -
     1: All element in array are +ve
-    2: All element in array are -ve ** -> This
-
-
+    2: All element in array are -ve ** -> This is the reason to keep Min value calc as well.
+    3: No of -ve element in an Array are EVEN.
+    4. No of -ve element in an Array are ODD.
  */
 public class MaxProductSubArray {
     public static void main(String[] args) {
