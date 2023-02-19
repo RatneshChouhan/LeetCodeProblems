@@ -1,49 +1,46 @@
 package com.rc.tech;
+// Java program to find minimum element in a sorted and
+// rotated array
 
-public class Solution {
+class Solution {
+    static int findMin(int arr[], int low, int high)
+    {
+        // This condition is needed to handle the case when
+        // array is not rotated at all
+        if (high < low)
+            return arr[0];
 
-    public static void main(String[] args) {
-        int [] nums = new int [] {6,1,5,3,2};
+        // If there is only one element left
+        if (high == low)
+            return arr[low];
 
-        System.out.println("Next permutation is: " + nxtPermutation(nums));
+        // Find mid
+        int mid = low + (high - low) / 2; /*(low + high)/2;*/
+
+        // Check if element (mid+1) is minimum element.
+        // Consider the cases like {3, 4, 5, 1, 2}
+        if (mid < high && arr[mid + 1] < arr[mid])
+            return arr[mid + 1];
+
+        // Check if mid itself is minimum element
+        if (mid > low && arr[mid] < arr[mid - 1])
+            return arr[mid];
+
+        // Decide whether we need to go to left half or
+        // right half
+        if (arr[high] > arr[mid])
+            return findMin(arr, low, mid - 1);
+        return findMin(arr, mid + 1, high);
     }
 
-    // 6 1 5 3 2
+    // Driver Program
+    public static void main(String[] args)
+    {
+        int arr[] = { 3, 4, 5, 6, 1, 2 };
+        int N = arr.length;
+        System.out.println("The minimum element is "
+                + findMin(arr, 0, N - 1));
 
-
-    private static String nxtPermutation(int[] nums) {
-        int i = nums.length - 2;
-
-        while(i >= 0 && nums[i] >= nums[i + 1]) {
-            i--;
-        }
-
-        if(i >= 0) {
-            int j = nums.length - 1;
-            while(nums[i] >= nums[j])
-                j--;
-            if(j >= 0)
-                swap(nums, i, j);
-        }
-
-        reverse(nums, i + 1, nums.length - 1);
-        StringBuilder sb = new StringBuilder();
-        for(int e : nums)
-            sb.append(e);
-        return sb.toString();
-    }
-
-    private static void swap(int[] nums, int i, int j) {
-        int t = nums[i];
-        nums[i] = nums[j];
-        nums[j] = t;
-    }
-
-    private static void reverse(int[] nums, int s, int e) {
-        while(s < e) {
-            swap(nums, s, e);
-            s++;
-            e--;
-        }
     }
 }
+
