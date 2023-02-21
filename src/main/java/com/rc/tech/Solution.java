@@ -2,6 +2,8 @@ package com.rc.tech;
 // Java program to find minimum element in a sorted and
 // rotated array
 
+import java.util.Stack;
+
 class Solution {
     static int findMin(int arr[], int low, int high)
     {
@@ -40,7 +42,7 @@ class Solution {
         int N = arr.length;
         System.out.println("The minimum element is "
                 + findMin(arr, 0, N - 1));
-
+        Stack<Integer> integerStack = new Stack<>();
     }
 }
 
