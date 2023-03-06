@@ -10,10 +10,10 @@ public class ThirdHighest {
 
         Optional<Integer> optionalInt = Arrays.stream(arr)
                 .boxed()
-                .sorted((a, b) -> b.compareTo(a))
+                .sorted((a,b) -> b.compareTo(a))
                 .skip(2)
                 .findFirst();
         if(optionalInt.isPresent())
-            System.out.println(optionalInt);
+            System.out.println(optionalInt.get());
     }
 }
