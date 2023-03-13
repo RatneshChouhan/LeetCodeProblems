@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fcc9fb7-f47a-47a3-b068-0a813fcdc872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/HR_KMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/JPMC_1_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/MinCoinRequiredForSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rc/tech/ThirdHighest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/ThirdHighest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +60,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.HR_KMin">
-    <configuration name="Amdocs_Exception_Que" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.Amdocs_Exception_Que" />
+  <component name="RunManager" selected="Application.JPMC_1_Solution">
+    <configuration name="JPMC_1_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.JPMC_1_Solution" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HR_KMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.HR_KMin" />
+    <configuration name="MinCoinRequiredForSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.MinCoinRequiredForSum" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.Solution" />
+    <configuration name="MinHeapArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.MinHeapArr" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HR_KMin" />
+        <item itemvalue="Application.JPMC_1_Solution" />
+        <item itemvalue="Application.MinCoinRequiredForSum" />
+        <item itemvalue="Application.MinHeapArr" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.ThirdHighest" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Amdocs_Exception_Que" />
       </list>
     </recent_temporary>
   </component>
@@ -384,9 +383,29 @@
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/HR_KMin.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/MinHeap.java</url>
           <line>32</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/JPMC_1_Solution.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/JPMC_1_Solution.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/JPMC_1_Solution.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/JPMC_1_Solution.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
