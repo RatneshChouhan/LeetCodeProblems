@@ -1,6 +1,7 @@
 package com.rc.tech;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Optional;
 
 public class ThirdHighest {
@@ -10,7 +11,7 @@ public class ThirdHighest {
 
         Optional<Integer> optionalInt = Arrays.stream(arr)
                 .boxed()
-                .sorted((a,b) -> b.compareTo(a))
+                .sorted(Comparator.reverseOrder())
                 .skip(2)
                 .findFirst();
         if(optionalInt.isPresent())
