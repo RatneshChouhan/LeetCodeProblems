@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fcc9fb7-f47a-47a3-b068-0a813fcdc872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/NthFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.LeftViewOfBinaryTree">
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration name="JPMC_1_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rc.tech.JPMC_1_Solution" />
       <module name="LeetcodeProblems" />
@@ -87,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCoinRequiredForSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.MinCoinRequiredForSum" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.LinkedList" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeapArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.MinHeapArr" />
+    <configuration name="MinCoinRequiredForSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.MinCoinRequiredForSum" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.LeftViewOfBinaryTree" />
         <item itemvalue="Application.NthFibonacci" />
         <item itemvalue="Application.JPMC_1_Solution" />
         <item itemvalue="Application.MinCoinRequiredForSum" />
-        <item itemvalue="Application.MinHeapArr" />
       </list>
     </recent_temporary>
   </component>
@@ -409,18 +408,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
           <line>28</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="54" />
+          <line>30</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
