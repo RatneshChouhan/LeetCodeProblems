@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fcc9fb7-f47a-47a3-b068-0a813fcdc872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/JPMC_1_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/MinCoinRequiredForSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/NthFibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +60,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.JPMC_1_Solution">
+  <component name="RunManager" selected="Application.LeftViewOfBinaryTree">
     <configuration name="JPMC_1_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rc.tech.JPMC_1_Solution" />
+      <module name="LeetcodeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rc.tech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.LeftViewOfBinaryTree" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -100,21 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdHighest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.ThirdHighest" />
-      <module name="LeetcodeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rc.tech.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.WordPattern" />
+    <configuration name="NthFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.NthFibonacci" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftViewOfBinaryTree" />
+        <item itemvalue="Application.NthFibonacci" />
         <item itemvalue="Application.JPMC_1_Solution" />
         <item itemvalue="Application.MinCoinRequiredForSum" />
         <item itemvalue="Application.MinHeapArr" />
-        <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.ThirdHighest" />
       </list>
     </recent_temporary>
   </component>
@@ -406,6 +406,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/JPMC_1_Solution.java</url>
           <line>29</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
