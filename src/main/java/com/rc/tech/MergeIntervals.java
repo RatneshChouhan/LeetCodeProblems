@@ -10,6 +10,7 @@ public class MergeIntervals {
     public static void main(String[] args) {
     //    int[][] intervals =  {{6,8},{1,9},{2,4},{4,7}};
         int[][] intervals =  {{8,10},{1,3},{2,6},{15,18}};
+
         Comparator<int[]> rowComparator = Comparator.comparingInt(row -> row[0]);
         Arrays.sort(intervals, rowComparator);
         /*

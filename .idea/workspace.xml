@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fcc9fb7-f47a-47a3-b068-0a813fcdc872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/FindFirstNonRepeatingCharInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rc/tech/DeutscheBankOA_Que1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/DeutscheBankOA_Que1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rc/tech/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rc/tech/MergeIntervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +55,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="introduce.parameter.lambda" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practise/crud-with-square-test/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
-    <configuration name="JPMC_1_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.JPMC_1_Solution" />
+  <component name="RunManager" selected="Application.FindFirstNonRepeatingCharInString">
+    <configuration name="FindFirstNonRepeatingCharInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.FindFirstNonRepeatingCharInString" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCoinRequiredForSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.MinCoinRequiredForSum" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.MergeIntervals" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rc.tech.NthFibonacci" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rc.tech.Practice" />
       <module name="LeetcodeProblems" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFirstNonRepeatingCharInString" />
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.LeftViewOfBinaryTree" />
-        <item itemvalue="Application.NthFibonacci" />
-        <item itemvalue="Application.JPMC_1_Solution" />
-        <item itemvalue="Application.MinCoinRequiredForSum" />
       </list>
     </recent_temporary>
   </component>
@@ -272,31 +275,6 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/SearchInRotatedSortedArray.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/SearchInRotatedSortedArray.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/SearchInRotatedSortedArray.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/SearchInRotatedSortedArray.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/SearchInRotatedSortedArray.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/Solution.java</url>
           <line>120</line>
           <option name="timeStamp" value="24" />
@@ -313,13 +291,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/MergeIntervals.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/MergeIntervals.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/InsertAndMergeInterval.java</url>
@@ -425,6 +398,19 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/LeftViewOfBinaryTree.java</url>
           <line>34</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/MergeIntervals.java</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rc/tech/MergeIntervals.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

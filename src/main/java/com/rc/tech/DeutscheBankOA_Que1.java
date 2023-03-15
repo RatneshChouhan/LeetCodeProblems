@@ -8,11 +8,8 @@ public class DeutscheBankOA_Que1 {
     public static void main(String[] args) {
         List<Employee> empList = new ArrayList<>();
 
-        final Map<String, Employee> dptWiseCommit = empList.stream()
-                .collect(Collectors.groupingBy(Employee::getDept,
-                            Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparingInt(Employee::getCommit)), Optional::get)));
-
-
+        final Map<String, Optional<Employee>> collect = empList.stream()
+                .collect(Collectors.groupingBy(Employee::getDept, Collectors.maxBy(Comparator.comparingInt(Employee::getCommit))));
     }
 
 }
