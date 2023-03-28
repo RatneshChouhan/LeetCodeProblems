@@ -5,6 +5,7 @@ public class SumOfDigitOfString {
     public static void main(String[] args) {
         String s = "zbax";
         int k = 2;
+
         // Convert s to integer by replacing each letter with its position in the alphabet
         int num = Integer.parseInt(
                 s.chars()
