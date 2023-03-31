@@ -1,12 +1,29 @@
 package com.rc.tech;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-
 public class Practice {
     public static void main(String[] args) {
-        /*int[][] intervals = {{8, 10}, {1, 3}, {2, 6}, {15, 18}};
+        int num = 1234567891;
+
+        int count = (int) String.valueOf(num).chars().filter(Character::isDigit).count();
+
+        System.out.println(count);
+
+   /*     Set<Short> shortSet = new HashSet<>();
+
+        for(short i = 0; i < 10; i++) {
+            shortSet.add(i);
+            shortSet.remove((short)i - 1);
+        }
+
+        System.out.println("Printing 1");
+        for (Short value : shortSet) {
+            System.out.println(value);
+        }
+*/
+    /*  System.out.println("Printing 2");
+        shortSet.forEach(System.out::println);
+
+        int[][] intervals = {{8, 10}, {1, 3}, {2, 6}, {15, 18}};
         Comparator<int[]> rowComparator = Comparator.comparingInt(row -> row[0]);
         Arrays.sort(intervals, rowComparator);
         List<int[]> merged = new ArrayList<>();
@@ -28,11 +45,12 @@ public class Practice {
 
    //     System.out.println(comparator.compare(word1, word2));
 
-        System.out.println(Integer.valueOf("123"));
+   /*     System.out.println(Integer.valueOf("123"));
 
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
         Comparator<String> compareIgnoreCase = String::compareToIgnoreCase;
         names.sort(compareIgnoreCase);
-        names.forEach(System.out::println);
+        names.forEach(System.out::println);*/
+
     }
 }
